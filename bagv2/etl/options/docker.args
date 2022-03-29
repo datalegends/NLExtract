@@ -9,9 +9,9 @@ bag_file_ext=zip
 # OUTPUT: PostGIS settings
 # Output to PostGIS running on Docker host!
 # pg_host=postgis
-pg_host=host.docker.internal
+pg_host=127.0.0.1
 pg_port=5432
-pg_user=postgres
-password=postgres
-pg_db=bagv2
-schema=test
+pg_user=cdf
+password=insecure
+pg_db=cdf
+schema=bagv2_032022
